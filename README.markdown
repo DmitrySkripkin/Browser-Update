@@ -37,7 +37,7 @@ var $buoop = {
     vs: {i:6,f:2,o:9.63,s:2,c:10}, 	// browser versions to notify
     reminder: 24,                   // after how many hours should the message reappear
                                     // 0 = show all the time
-    reminderClosed: 150             // if the user closes message it reappears after x hours
+    reminderClosed: 150,            // if the user closes message it reappears after x hours
     onshow: function(infos){},      // callback function after the bar has appeared
     onclick: function(infos){},     // callback function if bar was clicked
     onclose: function(infos){},     //
